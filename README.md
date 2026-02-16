@@ -1,4 +1,4 @@
-# iNSTAGRAM-POSTCARD
+# INSTAGRAM-POSTCARD
 ## pasos aplicados
 ### En el body
 - aplico en styles margin:0 al body (para que desaparezcan todos los bordes)
