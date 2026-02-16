@@ -20,4 +20,3 @@
 ### Le doy estilo a la clase imagen 
 - width: 100%; su ancho es el total
 - display: block; y le digo que sea tratado como bloque ya por defecto es inline y asi poder controlar los margenes y la alineación
-### le doy estilos a los span que estan dentro de content-card
