@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Postcard</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 </head>
 <body>
-    <h1>Instagram postcard</h1>
-    <a href="www.google.com">Google</a>
+    <h1>Instagram Postcard</h1>
+
     <div class="card">
         <div class="header-card">
-            <img src="" alt="icono">
-            <span>Username</span>
-            <span><i>Bullets</i></span>
+            <div class="user">
+                <i class="fa-brands fa-html5 user-icon"></i>
+                <div class="user-info">
+                    <strong>HTML5</strong>
+                    <span>Rigoberto</span>
+                </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>
+
         <div class="image">
-            <img src="./image/perro.jpg" alt="">
+            <img src="./image/perro.jpg" alt="Dog postcard image">
         </div>
+
         <div class="content-card">
-            <span><i>corazon</i><i>chat</i><i>enviar</i></span>
-            <span><i>guardar</i></span>
-            <p>100 me gusta</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo a optio, maiores veniam doloremque consequatur voluptatum saepe similique mollitia nihil ex? Deserunt aliquam delectus similique ipsa veritatis rem sapiente.</p>
+            <div class="actions">
+                <div class="left-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+
+            <p>Liked by <strong>4GeeksAcademy</strong>, <strong>html5</strong>, <strong>Web</strong> and <strong>100,000 others</strong></p>
+
+            <p>
+                This is my first Instagram postcard built with HTML and CSS.
+                I am practicing structure, spacing, icons, and styling to recreate
+                a simple social media post layout.
+            </p>
         </div>
     </div>
 </body>
